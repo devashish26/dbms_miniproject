@@ -1,0 +1,137 @@
+body{
+  background-color: #f9fcdc;
+  font-family: Arial;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+<link rel="icon" href="../icon-modified.png">
+
+.in{
+  position: absolute;
+  top:5%;
+}
+
+.yes, .no{
+  position: relative;
+  right: 9rem;
+}
+
+.yes{
+  left: 10em;
+}
+
+.no{
+  left:15em;
+  bottom:2.832em;
+}
+
+.home1{
+  position: absolute;
+  left:80em;
+}
+
+.isearch{
+  position: relative;
+  width: 20em;
+
+}
+
+
+.title{
+  color: #3D0000;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.container{
+  margin-top: 6em;
+}
+
+.container_register{
+  background:#F9F3DF;
+  display:block;
+  border-radius: 50px 20px ;
+  padding-left: 3em;
+  box-shadow:0.3rem 0.3rem  grey;
+}
+.R1, .D1, .RE, .U1{
+   background: #0E6360;
+   border-radius: 10px;
+   color: #99C624;
+   font-weight: 500;
+   border: solid #99C624 1px;
+   cursor: pointer;
+   height:2.4em;
+   text-align: center;
+   width:25%;
+}
+
+.logout{
+  position:relative;
+  left:47%;
+  bottom:20em;
+}
+.home{
+  position: absolute;
+  right: 70px;
+}
+
+.N1, .E1, .M1, .P1, .B1{
+  border-radius: 20px;
+  border: none;
+  background-color: #EADEB8;
+  margin-top: 2em;
+  height:2.4em;
+  width: 40%;
+
+}
+
+.register{
+  margin-top: 3em;
+  margin-bottom: 2em;
+  position: relative;
+  right: -60%;
+}
+
+.content-table{
+
+	border-collapse: collapse;
+	margin:25px 0;
+	font-size: 0.9em;
+	min-width:1100px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,15);
+	position: relative; top: 100px; left: 50px;
+	margin-bottom:100px;
+
+}
+.content-table thead tr {
+	background-color:#009879;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+.content-table th,
+.content-table td{
+	padding: 15px 15px;
+}
+.content-table tbody tr {
+	border-bottom:1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+.content-table tbody tr:nth-of-type(odd){
+	background-color: #ffffff;
+}
+.content-table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+.btn {
+  background: #3498DB;
+  border-radius: 1rem;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+}
